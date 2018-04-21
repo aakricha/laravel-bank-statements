@@ -174,7 +174,7 @@ Contributions to the Laravel Bank Statements library are very welcome
 ## Android App
 Recently a Android app released to help you see transaction history and balance from multiple internet banking, and it's called "[CekDuit](https://goo.gl/1kPRtm)".
 
-You can also ask info@sellerkeys.com to buy the source code, if you interested to use something like CekDuit android app but worrying about your data security. The source code will not having Ads, registration, and only able to check BCA + BNI + Mandiri internet banking, because BRI require additional server side captcha solver. The source code only for personal use only. You should have ability to build and install into your android phone by your self.
+You can also ask info@sellerkeys.com to buy the source code, if you interested to use something like CekDuit android app but worrying about your data security. The source code will not having Ads, registration, and only able to check BCA + BNI + Mandiri internet banking, because BRI require additional server side captcha solver. The source code for personal use only. You should have ability to build and install into your android phone by your self.
 
 ![CekDuit](https://lh3.googleusercontent.com/z3amoSIKdH1YklLTnGGDOPfYeIER2iK29JOC0coJNGK5rd0pV51sF7vqQizU7oOWIw=w1444-h970-rw)
 
