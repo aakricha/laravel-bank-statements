@@ -1,10 +1,15 @@
 # Bank Statements Collector
-Laravel package to collect your bank statements history. Currently support for parsing statements history from **BCA**, **Mandiri**, and **BNI** e-banking websites.
+Laravel package to collect your bank statements history. Currently support for parsing statements history from **BCA**, **Mandiri**, **BNI**, and **MUAMALAT** e-banking websites.
 
 **Read and make sure you understand everything first before submiting your questions. Create a issue if you found a bug.
 
 ## Requirements
 Check the [composer.json](https://github.com/feelinc/laravel-bank-statements/blob/master/composer.json) file
+
+Support Laravel versions :
+* 5.4.*
+* 5.5.*
+* 5.6.*
     
 ## Installation
     $ php composer.phar require sule/bank-statements
@@ -72,6 +77,7 @@ Available collectors :
 - bca, url : https://ibank.klikbca.com
 - mandiri, url : https://ib.bankmandiri.co.id
 - bni-mobile, url : https://ibank.bni.co.id/MBAWeb/FMB
+- muamalat, url : https://ib.muamalatbank.com
 
 
 To start collecting (scrapping) from registered e-banking website accounts
@@ -164,6 +170,16 @@ To modify the configuration file, the default config file need to be published f
 - Test your new collector.
 
 Contributions to the Laravel Bank Statements library are very welcome
+
+## Android App
+Recently a Android app released to help you see transaction history and balance from multiple internet banking, and it's called "[CekDuit](https://goo.gl/1kPRtm)".
+
+You can also ask info@sellerkeys.com to buy the source code, if you interested to use something like CekDuit android app but worrying about your data security. The source code will not having Ads, registration, and only able to check BCA + BNI + Mandiri internet banking, because BRI require additional server side captcha solver. The source code for personal use only. You should have ability to build and install into your android phone by your self.
+
+![CekDuit](https://lh3.googleusercontent.com/z3amoSIKdH1YklLTnGGDOPfYeIER2iK29JOC0coJNGK5rd0pV51sF7vqQizU7oOWIw=w1444-h970-rw)
+
+Using the same logic as this repository to collect the transaction history, but running only on the device, so the data only stored in the device.
+The source code currently is not open sourced.
 
 ## License
 
